@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+    <link rel="manifest" href="./manifest.json">
+    <title>Document</title>
+    
+   <style>
+    html
+    {
+      
+        scroll-behavior: smooth;;
+    }
+   </style>
+   <script>
+        if ('serviceWorker' in navigator) 
+        {
+                navigator.serviceWorker.register('sw.js')
+                .then(() => console.log('Service Worker Registered'))
+                .catch(err => console.log('Service Worker Error', err));
+        }
+   </script>
+</head>
+<body>
+    
+   Lorem ipsum dolor sit amet consectetur adipisicing.
+</body>
+</html>

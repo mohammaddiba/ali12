@@ -1,0 +1,33 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+}
+#d1
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(17, 255, 0);
+    /* position: fixed;
+    top: 100px;
+    right: 0px; */
+}
+#dd
+{
+    background-color: aqua;
+  
+   position: relative;
+} 
+@media print and  ( min-width : 600px) {
+    #d1
+    {
+        background-color: bisque;
+    }
+}
+h1{
+    color: green;
+    
+}
